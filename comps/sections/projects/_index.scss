@@ -1,0 +1,119 @@
+.use-bootstrap,
+#use-bootstrap {
+	@import "bootstrap/scss/bootstrap";
+}
+
+.projects {
+	position: relative;
+	width: 100%;
+	padding-top: 12rem;
+	background-image: $gradient;
+	z-index: 1;
+
+	.projects-container {
+		width: 100%;
+		@include flexy;
+		flex-direction: column;
+		margin-top: 5rem;
+
+		.top-projects,
+		.bottom-projects {
+			width: 100%;
+			@include flexy;
+			flex-direction: column;
+
+			.img-container {
+				width: 32rem !important;
+			}
+		}
+
+		.bottom-projects {
+			opacity: 0;
+			display: none;
+		}
+
+		.show-bottom {
+			display: flex;
+			opacity: 1;
+			animation: slide-in 0.6s ease-in forwards;
+
+			@keyframes slide-in {
+				from {
+					opacity: 0;
+				}
+				to {
+					opacity: 1;
+				}
+			}
+		}
+
+		.hide-bottom {
+			transition: all 0.3s ease-in-out;
+			opacity: 0;
+			display: none;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.projects {
+		.projects-container {
+			margin-top: 6rem;
+
+			.top-projects,
+			.bottom-projects {
+				width: 100%;
+				display: grid;
+				grid-template-columns: repeat(2, 50%);
+				grid-template-rows: repeat(2, auto);
+				justify-items: center;
+				align-items: center;
+			}
+
+			.btn {
+				margin-top: 3rem;
+			}
+
+			.show-bottom {
+				display: grid;
+			}
+
+			.hide-bottom {
+				opacity: 0;
+				display: none;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.projects {
+		padding-top: 14rem;
+
+		.projects-container {
+			margin-top: 0;
+			width: 90%;
+			margin: 0 auto;
+
+			.btn {
+				margin-top: 4rem;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.projects {
+		padding-top: 14rem;
+
+		.projects-container {
+			margin-top: 0;
+			width: 90%;
+			margin: 0 auto;
+
+			.btn {
+				margin-top: 5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.carousel-card {
+	width: 80%;
+	max-width: 40rem;
+	@include flexy;
+	flex-direction: column;
+	padding: 0.8rem;
+	background: $bg-light;
+	border-radius: 4px;
+	margin-bottom: 4rem;
+	cursor: pointer;
+	@include svg-hov;
+
+	.info {
+		margin-top: 0.8rem;
+		padding: 0 0.8rem;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.arrow {
+			@include ic-mob;
+			color: $bg-dark;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.carousel-card {
+		margin: 3rem;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.carousel-card {
+		margin: 4rem 3rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.carousel-card {
+		margin: 5rem 3rem;
+	}
+}
