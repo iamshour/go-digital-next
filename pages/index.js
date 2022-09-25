@@ -1,5 +1,5 @@
 import Head from "next/head"
-import Layout from "@comps/fragments/layout"
+import Layout from "@comps/layout"
 import { About, Contact, Hero, Projects, Services } from "@comps/sections"
 
 export default function Home() {

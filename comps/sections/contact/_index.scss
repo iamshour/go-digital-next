@@ -13,10 +13,16 @@
 		justify-content: flex-end;
 		position: relative;
 		bottom: -8px;
+		display: none;
 
 		img {
 			width: 34rem;
 		}
+	}
+
+	.contact-container {
+		padding: 5rem 0 10rem 0;
+		width: 100%;
 	}
 
 	.form-container {

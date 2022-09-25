@@ -17,8 +17,8 @@ export default function Projects() {
 			/>
 			<div className='projects-container'>
 				<div className='top-projects'>
-					{topProjects?.map((props) => (
-						<CarouselWrapper key={props?.idx} idx={props?.idx} info={props?.info}>
+					{topProjects?.map(({ info, idx, ...props }) => (
+						<CarouselWrapper key={idx} idx={idx} info={info}>
 							<CarouselCard
 								fadeSlide={true}
 								controls={false}

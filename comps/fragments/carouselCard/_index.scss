@@ -3,12 +3,16 @@
 	max-width: 40rem;
 	@include flexy;
 	flex-direction: column;
-	padding: 0.8rem;
+	padding: 1.2rem 0.8rem;
 	background: $bg-light;
 	border-radius: 4px;
 	margin-bottom: 4rem;
 	cursor: pointer;
 	@include svg-hov;
+
+	.img-container {
+		width: 100% !important;
+	}
 
 	.info {
 		margin-top: 0.8rem;

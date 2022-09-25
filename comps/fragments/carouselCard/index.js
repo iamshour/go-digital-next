@@ -1,7 +1,7 @@
 import { Carousel } from "react-bootstrap"
 import Image from "next/image"
 
-export default function CarouselCard({ idx, alt, interval, images, ...rest }) {
+export default function CarouselCard({ alt, interval, images, ...rest }) {
 	return (
 		<div className='img-container use-bootstrap'>
 			<Carousel {...rest}>

@@ -12,7 +12,7 @@ export default function Hero() {
 	return (
 		<div className='hero'>
 			<div className='right-hero'>
-				<Image src={heroImg} objectFit='cover' layout='responsive' alt="You're Going Viral!!" />
+				<Image src={heroImg} alt="You're Going Viral!!" />
 			</div>
 			<div className='left-hero'>
 				<h1>
@@ -23,8 +23,8 @@ export default function Hero() {
 					to the <span>Next Level</span>
 				</h1>
 				<div className='cta'>
-					<Link href='#projects' role='button' tabIndex={0} className='btn' passHref>
-						<a>
+					<Link href='#projects' role='button' tabIndex={0} passHref>
+						<a className='btn'>
 							<h5>See Work</h5>
 							<BsBriefcaseFill className='btn-icon' />
 						</a>

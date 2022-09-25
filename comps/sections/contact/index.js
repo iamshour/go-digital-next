@@ -45,11 +45,11 @@ export default function Contact() {
 			/>
 			<div className='contact-container'>
 				<div className='left-info'>
-					<Image objectFit='cover' layout='intrinsic' src={guy} alt='contact information' />
+					<Image src={guy} alt='contact information' />
 				</div>
 				<div className='form-container'>
 					<div className='phone'>
-						<Image objectFit='cover' layout='fixed' src={phone} alt='form structure' />
+						<Image layout='fixed' src={phone} alt='form structure' />
 					</div>
 					<form
 						className='form'

@@ -61,16 +61,13 @@ const topServices = [
 		alt: "high-performing up-to-date content",
 	},
 	{ src: img5, text: "Posting scheduled, organic, engaing content", alt: "Regular content posts" },
-	{ src: img6, text: "Tracking &amp; optimizing engagement + PPC rates", alt: "Tracking rates" },
-	{ src: img7, text: "", alt: "" },
-	{ src: img8, text: "", alt: "" },
-	{ src: img9, text: "", alt: "" },
+	{ src: img6, text: "Tracking & optimizing engagement + PPC rates", alt: "Tracking rates" },
 ]
 
 const bottomServices = [
 	{ src: img7, text: "Day-to-day accounts management & support", alt: "accounts management" },
 	{ src: img8, text: "Developing brand awareness", alt: "brand awareness" },
-	{ src: img9, text: "Completing market &amp; competitior analysis", alt: "competitior analysis" },
+	{ src: img9, text: "Completing market & competitior analysis", alt: "competitior analysis" },
 ]
 
 const dropOptions = ["instagram", "facebook", "billboards", "package", "other"]
@@ -79,7 +76,7 @@ const topProjects = [
 	{
 		info: "Mocassin Store IG Campaign",
 		alt: "Mocassin Store social media Images",
-		interval: 1000,
+		interval: 3000,
 		idx: 1,
 		images: [
 			{ src: Proj1A, alt: "proj 1 a" },
@@ -95,7 +92,7 @@ const topProjects = [
 	{
 		info: "Al-Nabelsi Snack IG Campaign",
 		alt: "Al-Nabelsi Snack menu Images",
-		interval: 1300,
+		interval: 4300,
 		idx: 2,
 		images: [
 			{ src: Proj2A, alt: "proj a" },
@@ -136,7 +133,7 @@ const bottomProjects = [
 	{
 		info: "Diva Med Center IG ad campaign",
 		alt: "Diva Medical Center marketing Images",
-		interval: 1200,
+		interval: 3200,
 		idx: 5,
 		images: [
 			{ src: Proj5A, alt: "proj a" },
@@ -147,7 +144,7 @@ const bottomProjects = [
 	{
 		info: "HIC, The best certified courses!",
 		alt: "HIC Images",
-		interval: 1280,
+		interval: 2980,
 		idx: 6,
 		images: [
 			{ src: Proj6A, alt: "proj a" },
@@ -158,7 +155,7 @@ const bottomProjects = [
 	{
 		info: "Nutri Fit - Run by Jinan Trad",
 		alt: "Nutri Fit social media Images",
-		interval: 1000,
+		interval: 4400,
 		idx: 7,
 		images: [
 			{ src: Proj7A, alt: "proj a" },
@@ -169,7 +166,7 @@ const bottomProjects = [
 	{
 		info: "Optimal: Functional & affordable",
 		alt: "Optimal marketing Images",
-		interval: 1000,
+		interval: 36500,
 		idx: 8,
 		images: [
 			{ src: Proj8A, alt: "proj a" },
